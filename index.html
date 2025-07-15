@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio - Interior Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .text-lime-green {
+            color: #A3CC39;
+        }
+        .bg-lime-green {
+            background-color: #A3CC39;
+        }
+    </style>
+</head>
+<body class="bg-white dark:bg-zinc-900">
+
+    <!-- Header -->
+    <header class="bg-white dark:bg-zinc-900 text-zinc-900 dark:text-white sticky top-0 z-50 shadow-md max-w-screen-xl mx-auto">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                 <img src="https://i.imgur.com/8y4aF2f.png" alt="Rinterio Logo" class="h-8 mr-3">
+                <span class="text-2xl font-bold">Rinterio</span>
+            </div>
+            <nav class="hidden lg:flex items-center space-x-8">
+                <a href="#" class="hover:text-lime-green">Home</a>
+                <a href="#" class="hover:text-lime-green">Services</a>
+                <a href="#" class="hover:text-lime-green">Portfolio</a>
+                <a href="#" class="hover:text-lime-green">Blogs</a>
+                <a href="#" class="hover:text-lime-green">Contact Us</a>
+            </nav>
+            <div class="hidden lg:flex items-center space-x-4">
+                <button class="hover:text-lime-green"><i class="fas fa-search"></i></button>
+                <button class="hover:text-lime-green"><i class="fas fa-shopping-cart"></i></button>
+                <button class="bg-lime-green text-black font-bold py-3 px-6 rounded-lg flex items-center">
+                    Book Consult <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+            </div>
+            <div class="lg:hidden">
+                <button class="text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-screen-xl mx-auto">
+        <!-- Hero Section -->
+        <section class="text-center py-12 lg:py-24 bg-white dark:bg-zinc-900 text-zinc-900 dark:text-white">
+            <div class="container mx-auto px-6">
+                <img src="assets/banner.png" alt="Modern Barn House" class="mx-auto mb-8 max-w-sm md:max-w-md lg:max-w-lg">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold max-w-4xl mx-auto leading-tight">
+                    A barn house of this design has a <span class="text-lime-green">striking appearance</span>
+                </h1>
+                <p class="mt-6 max-w-2xl mx-auto text-zinc-600 dark:text-zinc-400">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+                <button class="mt-8 bg-lime-green text-black font-bold py-4 px-8 rounded-lg flex items-center mx-auto">
+                    View Details <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="py-16 lg:py-24 bg-[#F5F5F5] dark:bg-zinc-800">
+            <div class="container mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-zinc-900 dark:text-white">
+                        <p class="text-lime-green mb-2">→ About Us</p>
+                        <h2 class="text-4xl md:text-5xl font-bold mb-6">We design thoughtful, liveable spaces</h2>
+                        <p class="text-zinc-600 dark:text-zinc-400 mb-8">
+                            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
+                        <div class="space-y-6">
+                            <div class="bg-white dark:bg-zinc-700 p-6 rounded-lg flex items-center">
+                                <i class="fas fa-building text-3xl text-lime-green mr-4"></i>
+                                <div>
+                                    <h3 class="font-bold text-xl">Commercial</h3>
+                                    <p class="text-zinc-600 dark:text-zinc-400">The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                            <div class="bg-white dark:bg-zinc-700 p-6 rounded-lg flex items-center">
+                                 <i class="fas fa-home text-3xl text-lime-green mr-4"></i>
+                                <div>
+                                    <h3 class="font-bold text-xl">Residential</h3>
+                                    <p class="text-zinc-600 dark:text-zinc-400">The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/Rectangle.png" alt="Modern building exterior" class="rounded-lg shadow-lg w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Stats Section -->
+        <section class="bg-[#F5F5F5] dark:bg-zinc-800 pb-16 lg:pb-24">
+            <div class="container mx-auto px-6">
+                 <div class="bg-white dark:bg-zinc-700 p-8 rounded-xl shadow-lg">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-zinc-900 dark:text-white">
+                        <div>
+                            <i class="far fa-comment-dots text-3xl text-lime-green mb-2"></i>
+                            <p class="text-4xl font-bold">235+</p>
+                            <p class="text-zinc-600 dark:text-zinc-400">Happy Client Review</p>
+                        </div>
+                        <div>
+                            <i class="far fa-building text-3xl text-lime-green mb-2"></i>
+                            <p class="text-4xl font-bold">50+</p>
+                            <p class="text-zinc-600 dark:text-zinc-400">Work Departments</p>
+                        </div>
+                        <div>
+                            <i class="far fa-smile text-3xl text-lime-green mb-2"></i>
+                            <p class="text-4xl font-bold">30k+</p>
+                            <p class="text-zinc-600 dark:text-zinc-400">Our Happy Client</p>
+                        </div>
+                        <div>
+                            <i class="far fa-user text-3xl text-lime-green mb-2"></i>
+                            <p class="text-4xl font-bold">307+</p>
+                            <p class="text-zinc-600 dark:text-zinc-400">Staff Members</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Works Process Section -->
+        <section class="py-16 lg:py-24 bg-white dark:bg-zinc-900">
+            <div class="container mx-auto px-6 text-center">
+                <p class="text-lime-green mb-2">→ How we works</p>
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-zinc-900 dark:text-white">Our Works Process</h2>
+                <p class="text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto mb-12">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                </p>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
+                    <div class="bg-pink-100 dark:bg-pink-900/50 p-6 rounded-lg">
+                        <i class="far fa-lightbulb text-3xl text-pink-500 mb-4"></i>
+                        <h3 class="font-bold text-xl mb-2 text-zinc-900 dark:text-white">Concept</h3>
+                        <p class="text-zinc-600 dark:text-zinc-400">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                    <div class="bg-yellow-100 dark:bg-yellow-900/50 p-6 rounded-lg">
+                        <i class="fas fa-drafting-compass text-3xl text-yellow-500 mb-4"></i>
+                        <h3 class="font-bold text-xl mb-2 text-zinc-900 dark:text-white">Design Process</h3>
+                        <p class="text-zinc-600 dark:text-zinc-400">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                    <div class="bg-teal-100 dark:bg-teal-900/50 p-6 rounded-lg">
+                        <i class="fas fa-eye text-3xl text-teal-500 mb-4"></i>
+                        <h3 class="font-bold text-xl mb-2 text-zinc-900 dark:text-white">Supervision</h3>
+                        <p class="text-zinc-600 dark:text-zinc-400">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                    <div class="bg-blue-100 dark:bg-blue-900/50 p-6 rounded-lg">
+                        <i class="fas fa-file-invoice-dollar text-3xl text-blue-500 mb-4"></i>
+                        <h3 class="font-bold text-xl mb-2 text-zinc-900 dark:text-white">Budget Planning</h3>
+                        <p class="text-zinc-600 dark:text-zinc-400">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Portfolio Section -->
+        <section class="py-16 lg:py-24 bg-[#F5F5F5] dark:bg-zinc-800">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <p class="text-lime-green mb-2">→ Explore our Latest works</p>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-12 text-zinc-900 dark:text-white">Our Latest Portfolio</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                     <div class="bg-white dark:bg-zinc-700 p-6 rounded-lg flex flex-col md:flex-row items-center col-span-1 md:col-span-2 lg:col-span-3">
+                        <img src="assets/img1.png" alt="Commercial Project 1" class="w-full md:w-1/3 rounded-lg mb-4 md:mb-0 md:mr-6">
+                        <div class="text-zinc-900 dark:text-white">
+                            <h3 class="font-bold text-2xl">Commercial</h3>
+                            <p class="text-zinc-600 dark:text-zinc-400 my-2">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <button class="text-lime-green font-bold flex items-center">
+                                View Details <i class="fas fa-arrow-right ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <img src="assets/img2.png" alt="Portfolio Image 1" class="rounded-lg shadow-lg w-full h-64 object-cover">
+                    <img src="assets/img3.png" alt="Portfolio Image 2" class="rounded-lg shadow-lg w-full h-64 object-cover">
+                    <img src="assets/img3.png" alt="Portfolio Image 3" class="rounded-lg shadow-lg w-full h-64 object-cover">
+                    <div class="bg-white dark:bg-zinc-700 p-6 rounded-lg flex flex-col md:flex-row items-center col-span-1 md:col-span-2 lg:col-span-3">
+                        <img src="assets/img4.png" alt="Commercial Project 2" class="w-full md:w-1/3 rounded-lg mb-4 md:mb-0 md:mr-6">
+                        <div class="text-zinc-900 dark:text-white">
+                            <h3 class="font-bold text-2xl">Commercial</h3>
+                            <p class="text-zinc-600 dark:text-zinc-400 my-2">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <button class="text-lime-green font-bold flex items-center">
+                                View Details <i class="fas fa-arrow-right ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles & News Section -->
+        <section class="py-16 lg:py-24 bg-white dark:bg-zinc-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <p class="text-lime-green mb-2">→ Rinterio News</p>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 text-zinc-900 dark:text-white">Read Our Articles and News</h2>
+                    <p class="text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto mb-12">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-zinc-800 rounded-lg shadow-lg overflow-hidden">
+                        <img src="assets/article1.png" alt="Article 1" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <div class="flex items-center text-zinc-500 dark:text-zinc-400 text-sm mb-2">
+                                <i class="far fa-calendar-alt mr-2"></i><span>July 14, 2024</span>
+                                <i class="far fa-user ml-4 mr-2"></i><span>By Admin</span>
+                            </div>
+                            <h3 class="font-bold text-xl mb-2 text-zinc-900 dark:text-white">How to choose the furniture right of your home.</h3>
+                            <p class="text-zinc-600 dark:text-zinc-400 mb-4">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <a href="#" class="text-lime-green font-bold flex items-center">Read More <i class="fas fa-arrow-right ml-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-zinc-800 rounded-lg shadow-lg overflow-hidden">
+                        <img src="assets/article2.png" alt="Article 2" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <div class="flex items-center text-zinc-500 dark:text-zinc-400 text-sm mb-2">
+                                <i class="far fa-calendar-alt mr-2"></i><span>July 14, 2024</span>
+                                <i class="far fa-user ml-4 mr-2"></i><span>By Admin</span>
+                            </div>
+                            <h3 class="font-bold text-xl mb-2 text-zinc-900 dark:text-white">How to choose the furniture right of your home.</h3>
+                            <p class="text-zinc-600 dark:text-zinc-400 mb-4">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <a href="#" class="text-lime-green font-bold flex items-center">Read More <i class="fas fa-arrow-right ml-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-zinc-800 rounded-lg shadow-lg overflow-hidden">
+                        <img src="assets/article3.png" alt="Article 3" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <div class="flex items-center text-zinc-500 dark:text-zinc-400 text-sm mb-2">
+                                <i class="far fa-calendar-alt mr-2"></i><span>July 14, 2024</span>
+                                <i class="far fa-user ml-4 mr-2"></i><span>By Admin</span>
+                            </div>
+                            <h3 class="font-bold text-xl mb-2 text-zinc-900 dark:text-white">How to choose the furniture right of your home.</h3>
+                            <p class="text-zinc-600 dark:text-zinc-400 mb-4">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <a href="#" class="text-lime-green font-bold flex items-center">Read More <i class="fas fa-arrow-right ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="py-16 lg:py-24 bg-[#F5F5F5] dark:bg-zinc-800" style="background-image: url('assets/bg.jpg'); background-size: cover; background-position: center;">
+            <div class="container mx-auto px-6 text-center">
+                <p class="text-lime-green mb-2">→ Let's Connect</p>
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-zinc-900 dark:text-white">Let's Discuss Next Project</h2>
+                 <p class="text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto mb-12">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                </p>
+                <form class="max-w-4xl mx-auto bg-white dark:bg-zinc-700 p-8 rounded-lg shadow-lg">
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <input type="text" placeholder="First Name*" class="w-full p-4 rounded-lg bg-zinc-100 dark:bg-zinc-600 border border-zinc-200 dark:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-lime-green">
+                        <input type="text" placeholder="Last Name*" class="w-full p-4 rounded-lg bg-zinc-100 dark:bg-zinc-600 border border-zinc-200 dark:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-lime-green">
+                        <input type="tel" placeholder="Phone Number*" class="w-full p-4 rounded-lg bg-zinc-100 dark:bg-zinc-600 border border-zinc-200 dark:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-lime-green">
+                        <input type="email" placeholder="Email Number*" class="w-full p-4 rounded-lg bg-zinc-100 dark:bg-zinc-600 border border-zinc-200 dark:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-lime-green">
+                    </div>
+                    <textarea placeholder="Write your message here" rows="6" class="w-full p-4 rounded-lg bg-zinc-100 dark:bg-zinc-600 border border-zinc-200 dark:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-lime-green mb-6"></textarea>
+                    <button type="submit" class="w-full bg-[#ABEF5F] text-black font-bold py-4 px-8 rounded-[32px] flex items-center justify-center text-lg">
+                        Send Mail <i class="fas fa-paper-plane ml-2"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-900 text-white">
+        <div class="container mx-auto px-6 py-12 text-center">
+            <div class="flex justify-center items-center mb-4">
+                <img src="https://i.imgur.com/8y4aF2f.png" alt="Rinterio Logo" class="h-8 mr-3">
+                <span class="text-2xl font-bold">Rinterio</span>
+            </div>
+            <p class="max-w-2xl mx-auto text-zinc-400 mb-8">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+            <nav class="flex justify-center flex-wrap space-x-6 md:space-x-8 mb-8">
+                <a href="#" class="hover:text-lime-green">Home</a>
+                <a href="#" class="hover:text-lime-green">Services</a>
+                <a href="#" class="hover:text-lime-green">Portfolio</a>
+                <a href="#" class="hover:text-lime-green">Blogs</a>
+                <a href="#" class="hover:text-lime-green">Contact Us</a>
+            </nav>
+            <button class="bg-lime-green text-black font-bold py-3 px-6 rounded-lg flex items-center mx-auto">
+                Book Consult <i class="fas fa-arrow-right ml-2"></i>
+            </button>
+        </div>
+    </footer>
+
+</body>
+</html>
